@@ -1,5 +1,5 @@
 FROM openjdk:17
 COPY target/restcontainer.jar /usr/app/
-WORKDIR /usr/app
+WORKDIR /usr/app/
 ENTRYPOINT ["java","-jar","restcontainer.jar"]
 
