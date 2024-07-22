@@ -13,7 +13,7 @@ public class ActorOperationController {
 
 	@GetMapping("/wish/{name}")
 	public ResponseEntity<String> showActor(@PathVariable String name){
-		return new ResponseEntity<String>("hello actor",HttpStatus.OK);
+		return new ResponseEntity<String>("<h1>hello actor</h1>",HttpStatus.OK);
 	}
 	
 	
